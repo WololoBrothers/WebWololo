@@ -18,8 +18,7 @@ body {
       margin-bottom: 30px;
   }  
   .jumbotron {
-      /*background-color: linear-gradient(to bottom right, black, #3a87a4);*/
-      background-color: #3a87a4;
+      background-color: linear-gradient(to bottom right, black, #3a87a4);      
       /*background-image: url("../light.jpg");*/
       color: #fff;
       padding: 100px 25px;
