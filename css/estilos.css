@@ -31,11 +31,11 @@ body {
       background-color: #f6f6f6;
   }
   .logo-small {
-      color: #f4511e;
+      color: #3a87a4;
       font-size: 50px;
   }
   .logo {
-      color: #f4511e;
+      color: #3a87a4;
       font-size: 200px;
   }
   .thumbnail {
@@ -108,7 +108,7 @@ body {
   }
   .navbar {
       margin-bottom: 0;
-      background-color: #82a43a;
+      background-color: #3a87a4;
       /*background-image: url("light.jpg");*/
       z-index: 9999;
       border: 0;
