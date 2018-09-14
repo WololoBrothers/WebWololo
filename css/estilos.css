@@ -27,6 +27,9 @@ body {
   .container-fluid {
       padding: 60px 50px;
   }
+  .nosotros {
+      padding: 60px 200px;
+  }
   .bg-grey {
       background-color: #f6f6f6;
   }
