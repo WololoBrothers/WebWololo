@@ -21,7 +21,7 @@ body {
       background-image: linear-gradient(to bottom right, black, #3a87a4);      
       /*background-image: url("../light.jpg");*/
       color: #fff;
-      padding: 100px 25px;
+      /*padding: 100px 25px;*/
       font-family: Montserrat, sans-serif;
   }
   .container-fluid {
