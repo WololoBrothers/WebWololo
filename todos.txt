@@ -1,0 +1,7 @@
+todos
+
+* Ponerse en contacto marcador a area de contacto
+* Cambiar area de servicios por iconos posta
+* centrar titulo principal
+* conectar al contacto con api de mailgun
+* poner los mapas para que funcionen
