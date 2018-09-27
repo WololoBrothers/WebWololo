@@ -27,10 +27,7 @@ body {
   .container-fluid {
       padding: 60px 50px;
   }
-  .nosotros {
-      padding: 60px 200px;
-      padding-left: 300px;
-  }
+
   .bio {
       padding: 60px 200px;
       padding-left: 300px;
@@ -136,7 +133,7 @@ body {
   }
   .navbar-nav li a:hover, .navbar-nav li.active a {
       color: #3399ff !important;
-      /*background-color: #eee !important;*/
+      background-color: #fff !important;
       font-weight: 800;
   }
   .navbar-default .navbar-toggle {
@@ -192,6 +189,26 @@ body {
     }
   }
 
+  @media screen and (max-width: 480px) {
+    .navbar-right {
+        text-align: center;
+        /*font-size: xx-small !important;*/
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .nosotros {
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+  }
+
+  @media screen and (min-width: 600px) {
+      .nosotros {
+      padding: 60px 200px;
+      padding-left: 300px;
+    }
+  }
   .container {
     position: relative;
     width: 50%;
