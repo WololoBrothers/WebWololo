@@ -1,4 +1,3 @@
-<?php 
 
 <head>
   <title>Wololo</title>
@@ -10,15 +9,13 @@
   <link rel="stylesheet" href="css/estilos.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
 </head>
 
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
 
   <nav class="navbar navbar-default navbar-fixed-top">
     
-      <a href="http://wololo.guru/WebWololo"> <img src="pics/logowololo.png" style="height: 100px;width: 200px;margin-left: 100px;" > </a> 
-      <!--<a class="navbar-brand" href="#" style="font-size: 24px; color: #A5C150"> Wololo </a>-->
+      <a href="http://wololo.guru/WebWololo"> <img src="pics/logowololo.png" style="height: 100px;width: 200px;margin-left: 100px;" > </a>    
     
       <ul class="nav navbar-nav navbar-right" style="padding-top: 30px" >
         <li><a href="#about" style="color: black">NOSOTROS</a></li>
@@ -29,18 +26,9 @@
     </div>
   </nav> 
 
-   <div class="homepage-hero-module">
-      <div class="video-container">
-        <div class="filter"></div>
-        <video autoplay loop class="fillWidth">
-          <source src="vids/w1.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
-          <source src="vids/w1.webm" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser.
-        </video>
-        <div class="poster hidden">
-          <img src="vids/w1.jpg" alt="">
-        </div>
-      </div>
-    </div>
+  <video autoplay loop class="fillWidth">
+    <source src="vids/w1.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.          
+  </video>   
 
   <!-- Container (About Section) -->  
   <div class="row slideanim">
@@ -121,19 +109,16 @@
     <br><br>
     <div class="row slideanim">
       <div class="col-sm-4">
-        <!--<span class="glyphicon glyphicon-leaf logo-small"></span>-->
         <span> <img src="pics/apps.png" style="height: 50px;width: 50px"> </span>
         <h4>DESARROLLO DE APLICACIONES</h4>
         <p>Desarrollo de aplicaciones a medida</p>
       </div>
       <div class="col-sm-4">
-        <!--<span class="glyphicon glyphicon-certificate logo-small"></span>-->
         <span> <img src="pics/apps.png" style="height: 50px;width: 50px"> </span>
         <h4>DESARROLLO DE CONTENIDOS</h4>
         <p>Desarrollo de contenidos didacticos interactivos</p>
       </div>
       <div class="col-sm-4">
-        <!--<span class="glyphicon glyphicon-wrench logo-small"></span>-->
         <span> <img src="pics/webdesing.png" style="height: 50px;width: 50px"> </span>
         <h4 style="color:#303030;">HOSTING</h4>
         <p>Administracion de servidores</p>
@@ -145,50 +130,56 @@
   <div id="portfolio" class="container-fluid text-center bg-grey">
     <h2 style="color: #a9cb0c">Confian en nosotros</h2><br>
     <h4>Algunos de nuestros clientes y trabajos</h4>
-    <div class="row text-center slideanim">
-      <div class="col-sm-2">
-        <div class="thumbnail">
-          <img src="pics/austral.jpg" alt="Paris">
-          <p><strong>Universidad Austral </strong></p>
-          <p>Campus Virtual</p>
+    
+    <div id="empresas" style="height: 200px"> 
+    
+      <div class="row text-center slideanim">
+        <div class="col-sm-2">
+          <div class="thumbnail">            
+              <img src="pics/austral.jpg" alt="Paris">            
+            <p><strong>Universidad Austral </strong></p>
+            <p>Campus Virtual</p>
+          </div>
         </div>
-      </div>
-      <div class="col-sm-2">
-        <div class="thumbnail">
-          <img src="pics/logoutn.png" alt="San Francisco">
-          <p><strong>UTN </strong></p>
-          <p>Campus Virtual Regional Pacheco</p>
+        <div class="col-sm-2">
+          <div class="thumbnail">
+            <img src="pics/logoutn.png" alt="San Francisco">
+            <p><strong>UTN </strong></p>
+            <p>Campus Virtual Regional Pacheco</p>
+          </div>
         </div>
-      </div>
-      <div class="col-sm-2">
-        <div class="thumbnail">
-          <img src="pics/udesa.jpg" alt="San Francisco">
-          <p><strong>Universidad de San Andres </strong></p>
-          <p>Campus Virtual</p>
-        </div>      
-      </div>
-      <div class="col-sm-2">
-        <div class="thumbnail">
-          <img src="pics/nl.png" alt="San Francisco">
-          <p><strong>Net-Learning</strong></p>
-          <p>Campus Virtual</p>
+        <div class="col-sm-2">
+          <div class="thumbnail">
+            <img src="pics/udesa.jpg" alt="San Francisco">
+            <p><strong>Universidad de San Andres </strong></p>
+            <p>Campus Virtual</p>
+          </div>      
         </div>
-      </div>
-      <div class="col-sm-2">
-        <div class="thumbnail">
-          <img src="pics/volmedia.png" alt="San Francisco">
-          <p><strong>Volmedia </strong></p>
-          <p>Sistema de gestion</p>
-        </div>      
-      </div>
-      <div class="col-sm-2">
-        <div class="thumbnail">
-          <img src="pics/carnelogo.jpg" alt="San Francisco">
-          <p><strong>Carne</strong></p>
-          <p>Campus interno Carne</p>
+        <div class="col-sm-2">
+          <div class="thumbnail">
+            <img src="pics/nl.png" alt="San Francisco">
+            <p><strong>Net-Learning</strong></p>
+            <p>Campus Virtual</p>
+          </div>
         </div>
-      </div><br>
+        <div class="col-sm-2">
+          <div class="thumbnail">
+            <img src="pics/volmedia.png" alt="San Francisco">
+            <p><strong>Volmedia </strong></p>
+            <p>Sistema de gestion</p>
+          </div>      
+        </div>
+        <div class="col-sm-2">
+          <div class="thumbnail">
+            <img src="pics/carnelogo.jpg" alt="San Francisco">
+            <p><strong>Carne</strong></p>
+            <p>Campus interno Carne</p>
+          </div>
+        </div><br>
+      </div>
+
     </div>
+
   </div>
 
   <!-- Container (Contact Section) -->
@@ -202,25 +193,75 @@
         <p><span class="glyphicon glyphicon-envelope"></span> hola@wololo.guru</p>
       </div>
 
-      <div class="col-sm-7 slideanim">
-        <div class="row">
-          <div class="col-sm-6 form-group">
-            <input class="form-control" id="name" name="name" placeholder="Nombre completo" type="text" required>
+      <form method="post">
+        <div class="col-sm-7 slideanim">
+          <div class="row">
+            <div class="col-sm-6 form-group">
+              <input class="form-control" id="name" name="name" placeholder="Nombre completo" type="text" required>
+            </div>
+            <div class="col-sm-6 form-group">
+              <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+            </div>
           </div>
-          <div class="col-sm-6 form-group">
-            <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+          <textarea class="form-control" id="comments" name="comments" placeholder="Comentarios" rows="5"></textarea><br>
+          <div class="row">
+            <div class="col-sm-12 form-group">
+              <button class="btn btn-default pull-right" type="submit">Enviar</button>
+            </div>
           </div>
         </div>
-        <textarea class="form-control" id="comments" name="comments" placeholder="Comentarios" rows="5"></textarea><br>
-        <div class="row">
-          <div class="col-sm-12 form-group">
-            <button class="btn btn-default pull-right" type="submit">Enviar</button>
-          </div>
-        </div>
-      </div>
+
+      </form>
 
     </div>
   </div>
+
+  <!-- Envio de mail de contacto -->
+
+  <?php 
+    $message = "Your email address is:";
+
+    if (!empty($_POST)){
+  
+      require_once "Mail.php";
+
+      $host = "smtp.mailgun.org";
+      $username = "postmaster@mailgun.pedagogiadigital.com";
+      $password = "ba79469c2cfa88142132acc05c00317b";
+      $port = "25";
+      $to = "tdeamos@pedagogiadigital.com";
+
+      $email_from = $_POST["email"];
+      $email_subject = "Contacto desde Web Wololo" ;
+      $email_body = $_POST["comments"] ;      
+      $content = "text/html; charset=utf-8";
+      $mime = "1.0";
+
+      $headers = array ('From' => $email_from,
+              'To' => $to,
+              'Subject' => $email_subject,
+              'Reply-To' => $email_from,
+              'MIME-Version' => $mime,
+              'Content-type' => $content);
+
+      $params = array  ('host' => $host,
+              'port' => $port,
+              'auth' => true,
+              'username' => $username,
+              'password' => $password);
+
+      $smtp = Mail::factory ('smtp', $params);
+      $mail = $smtp->send($to, $headers, $email_body);
+
+      if (PEAR::isError($mail)) {
+              echo("<p>" . $mail->getMessage() . "</p>");
+      } else {
+              echo("<p>Message sent successfully!</p>");
+      }
+
+    }
+      /*echo $message . $_POST["email"];*/
+  ?>
 
   <!-- Add Google Maps -->
   <div id="googleMap" style="height:600px;width:100%;"></div>
@@ -343,7 +384,3 @@
     </script>
 
   </body>
-
-</html>
-
- ?>
