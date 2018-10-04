@@ -26,9 +26,18 @@
     </div>
   </nav> 
 
-  <video autoplay loop class="fillWidth">
-    <source src="vids/w1.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.          
-  </video>   
+   <div class="homepage-hero-module">
+      <div class="video-container">
+        <div class="filter"></div>
+        <video autoplay loop class="fillWidth">
+          <source src="vids/w1.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
+          <source src="vids/w1.webm" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser.
+        </video>
+        <div class="poster hidden">
+          <img src="vids/w1.jpg" alt="">
+        </div>
+      </div>
+    </div>  
 
   <!-- Container (About Section) -->  
   <div class="row slideanim">
