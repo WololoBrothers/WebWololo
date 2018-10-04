@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php 
+
 <head>
   <title>Wololo</title>
   <meta charset="utf-8">
@@ -218,7 +218,7 @@
           </div>
         </div>
       </div>
-      
+
     </div>
   </div>
 
@@ -345,3 +345,5 @@
   </body>
 
 </html>
+
+ ?>

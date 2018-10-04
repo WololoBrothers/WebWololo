@@ -2,6 +2,17 @@ todos
 
 * Ponerse en contacto marcador a area de contacto
 * Cambiar area de servicios por iconos posta
-* centrar titulo principal
 * conectar al contacto con api de mailgun
 * poner los mapas para que funcionen
+
+
+Buen día equipo competencias!
+Saco a Virginia, que se encuentra de vacaciones hasta la semana próxima y les consulto.
+El jueves 25 tenemos que hacer una presentación de 45 minutos en un evento para empresas.
+Se me ocurre este título para la presentación:
+
+INDICADORES DE CAPACITACIÓN PARA LA MEDICIÓN DE FORMACIÓN ON LINE
+• Reporting de desempeño en ambientes de aprendizaje online. (aquí la idea es mostrar como Moodle permite armar el mapa de competencias a través de lo que hicimos en Moodle EVAL y cómo queda el progreso de cada usuario registrado. Un tema o pregunta que puede surgir es si estos datos pueden pasar a un gestor de RRHH para ser gestionados – aquí la consulta es para Tomás, creo- )
+• Mejores datos para la gestión de desempeño. (Esta sería una conclusión del punto anterior. Tal vez no debería mencionar “gestión de desempeño” … sucede que en una empresa este es el gran beneficio que le veo a lo que Moodle puede aportar, por eso lo incluyo).
+Les escribo para que me hagan llegar su parecer siendo que han estado mucho más involucrados en la piloto que yo.
+Espero sus comentarios. Gracias y saludos! Susana”
