@@ -229,11 +229,12 @@
       $username = "postmaster@mailgun.pedagogiadigital.com";
       $password = "ba79469c2cfa88142132acc05c00317b";
       $port = "25";
-      $to = "tdeamos@pedagogiadigital.com";
+      $to = "info@wololo.com";
 
       $email_from = $_POST["email"];
-      $email_subject = "Contacto desde Web Wololo" ;
-      $email_body = $_POST["comments"] ;      
+      $email_subject = "Contacto desde Web Wololo" ;      
+      $email_body = "Nombre" . $_POST["name"] ;      
+      $email_body = $email_body . "Mensaje: " . $_POST["comments"] ;
       $content = "text/html; charset=utf-8";
       $mime = "1.0";
 
@@ -260,7 +261,7 @@
       }
 
     }
-      /*echo $message . $_POST["email"];*/
+      
   ?>
 
   <!-- Add Google Maps -->
